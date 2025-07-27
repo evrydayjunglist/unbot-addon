@@ -2,10 +2,10 @@
 local YssBossLoot = YssBossLoot
 local BB, BZ
 do
-    local lib_bb = LibStub('LibBabble-Boss-3.0')
-    BB = lib_bb:GetLookupTable()
-    local lib_bz = LibStub('LibBabble-Zone-3.0')
-    BZ = lib_bz:GetLookupTable()
+    local lib_bb = LibStub('LibBabble-Boss-3.0', true)
+    BB = lib_bb and lib_bb:GetLookupTable() or {}
+    local lib_bz = LibStub('LibBabble-Zone-3.0', true)
+    BZ = lib_bz and lib_bz:GetLookupTable() or {}
 end
 
 local lootdata = LibStub("LibInstanceLootData-1.0")

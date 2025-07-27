@@ -8,8 +8,10 @@ function YssBossLoot:Print(...) print("|cFF33FF99YssBossLoot|r:", ...) end
 YssBossLoot.frame:RegisterEvent("ADDON_LOADED")
 
 local L = LibStub("AceLocale-3.0"):GetLocale("YssBossLoot", true)
-local BZ = LibStub("LibBabble-Zone-3.0", true):GetUnstrictLookupTable()
-local BB = LibStub("LibBabble-Boss-3.0", true):GetUnstrictLookupTable()
+local BZ_lib = LibStub("LibBabble-Zone-3.0", true)
+local BZ = BZ_lib and BZ_lib:GetUnstrictLookupTable() or {}
+local BB_lib = LibStub("LibBabble-Boss-3.0", true)
+local BB = BB_lib and BB_lib:GetUnstrictLookupTable() or {}
 local AceGUI = LibStub("AceGUI-3.0")
 local icon = LibStub("LibDBIcon-1.0")
 local lootdata = LibStub("LibInstanceLootData-1.0")
