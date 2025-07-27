@@ -12,6 +12,7 @@
 ## Author: Yssaril
 ## Version: v1.0.3
 ## LoadOnDemand: 1
+## OptionalDeps: LibBabble-Zone-3.0, LibBabble-Boss-3.0
 ## SavedVariables: YssBossLootDB, YssBossLootMissingTranslations
 
 g.lua
