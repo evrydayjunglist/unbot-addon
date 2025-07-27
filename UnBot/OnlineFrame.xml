@@ -246,7 +246,9 @@
 					OnlineFrame.slider = self;
 				</OnLoad>
 				<OnValueChanged>
-					OnlineFrame.scrollFrame:SetVerticalScroll(self:GetValue());
+					if (OnlineFrame.scrollFrame ~= nil) then
+						OnlineFrame.scrollFrame:SetVerticalScroll(self:GetValue());
+					end
 				</OnValueChanged>
 			</Scripts>
           </Slider>
