@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: Lib: Babble-Zone-3.0
+## Notes: A library to help with localization of Zones.
+## Author: ckknight
+## X-eMail: ckknight@gmail.com
+## X-Category: Library
+## X-License: MIT
+## Dependencies: LibStub
+
+LibBabble-Zone-3.0.lua

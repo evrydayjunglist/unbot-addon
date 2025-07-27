@@ -15,6 +15,12 @@
 ## OptionalDeps: LibBabble-Zone-3.0, LibBabble-Boss-3.0
 ## SavedVariables: YssBossLootDB, YssBossLootMissingTranslations
 
+# Embedded Libraries
+Libs\LibStub\LibStub.lua
+Libs\LibBabble-3.0\LibBabble-3.0.lua
+Libs\LibBabble-Zone-3.0\LibBabble-Zone-3.0.lua
+Libs\LibBabble-Boss-3.0\LibBabble-Boss-3.0.lua
+
 g.lua
 
 Localization\enUS.lua

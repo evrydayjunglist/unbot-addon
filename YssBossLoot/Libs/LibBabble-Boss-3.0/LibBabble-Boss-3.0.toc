@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: Lib: Babble-Boss-3.0
+## Notes: A library to help with localization of Bosses.
+## Author: ckknight
+## X-eMail: ckknight@gmail.com
+## X-Category: Library
+## X-License: MIT
+## Dependencies: LibStub
+
+LibBabble-Boss-3.0.lua

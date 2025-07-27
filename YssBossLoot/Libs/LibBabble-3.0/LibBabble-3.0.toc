@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: Lib: Babble-3.0
+## Notes: A library for localizations that provides the core for all Babble libraries.
+## Author: ckknight
+## X-eMail: ckknight@gmail.com
+## X-Category: Library
+## X-License: MIT
+## Dependencies: LibStub
+
+LibBabble-3.0.lua
