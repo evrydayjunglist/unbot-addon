@@ -21,8 +21,6 @@ local sin = math.sin
 local cos = math.cos
 local pi = math.pi
 
-YssBossLoot.filters = {}
-
 local enableLootTooltip
 local dropdowntype = nil --'type', 'zone', 'level'
 local lootParent
