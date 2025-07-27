@@ -5,8 +5,10 @@ local ORANGE_FONT_COLOR_CODE = "|cffff7f3f";
 local YBL_WMS = {}
 
 local L = LibStub("AceLocale-3.0"):GetLocale("YssBossLoot", true)
-local BZ = LibStub("LibBabble-Zone-3.0", true):GetUnstrictLookupTable()
-local BB = LibStub("LibBabble-Boss-3.0", true):GetUnstrictLookupTable()
+local BZ_lib = LibStub("LibBabble-Zone-3.0", true)
+local BZ = BZ_lib and BZ_lib:GetUnstrictLookupTable() or {}
+local BB_lib = LibStub("LibBabble-Boss-3.0", true)
+local BB = BB_lib and BB_lib:GetUnstrictLookupTable() or {}
 
 local function GetMapType()
 	local id = GetCurrentMapAreaID() - 1
