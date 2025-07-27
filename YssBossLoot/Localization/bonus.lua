@@ -19,7 +19,7 @@ end
 
 do
     local lib = LibStub('LibInstanceLootData-1.0')
-    --local lib = LibStub:NewLibrary("LibInstanceLootData-1.0", 99999) -- oh yeah
+--local lib = LibStub:NewLibrary("LibInstanceLootData-1.0", 99999) -- oh yeah
     if lib then
         local loc = GetLocale()
         lib.L = setmetatable(loc == 'zhCN' and {

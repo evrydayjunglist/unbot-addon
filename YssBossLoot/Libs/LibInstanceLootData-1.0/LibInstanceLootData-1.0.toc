@@ -1,0 +1,9 @@
+## Interface: 30300
+## Title: Lib: LibInstanceLootData-1.0 (Stub)
+## Notes: Stub implementation of LibInstanceLootData-1.0 to prevent loading errors
+## Author: Generated Stub
+## Version: 1.0.0
+## X-Category: Library
+## Dependencies: LibStub
+
+LibInstanceLootData-1.0.lua

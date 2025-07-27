@@ -29,8 +29,8 @@ local function OnTooltipSetItem(tooltip, ...)
             boss = boss and BB[boss] or boss
             instance = instance and BZ[instance] or instance
 			if iType then
-				local diffstr = lootdata:GetDifficultyString(iType, difficulty)
-				local multiboss = lootdata:IsSubBoss(iType, instance, boss)
+			local diffstr = lootdata:GetDifficultyString(iType, difficulty)
+			local multiboss = lootdata:IsSubBoss(iType, instance, boss)
                 multiboss = multiboss and BB[multiboss] or multiboss
 				if multiboss and multiboss ~= boss then
 					boss = multiboss..": "..boss
