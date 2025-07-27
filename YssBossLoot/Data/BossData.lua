@@ -3,7 +3,8 @@
 local YssBossLoot = YssBossLoot
 
 local L = LibStub("AceLocale-3.0"):GetLocale("YssBossLoot", true)
-local BZ = LibStub("LibBabble-Zone-3.0", true):GetLookupTable()
+local BZ_lib = LibStub("LibBabble-Zone-3.0", true)
+local BZ = BZ_lib and BZ_lib:GetLookupTable() or {}
 
 
 ------------------------------------------------------------

@@ -6,7 +6,8 @@ local broker = LibStub("LibDataBroker-1.1")
 local icon = LibStub("LibDBIcon-1.0")
 
 local L = LibStub("AceLocale-3.0"):GetLocale("YssBossLoot", true)
-local BZ = LibStub("LibBabble-Zone-3.0", true):GetUnstrictLookupTable()
+local BZ_lib = LibStub("LibBabble-Zone-3.0", true)
+local BZ = BZ_lib and BZ_lib:GetUnstrictLookupTable() or {}
 
 local last_ldb_anchor
 
